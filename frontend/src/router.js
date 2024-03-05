@@ -6,6 +6,11 @@ const routes = [
     name: 'Home',
     component: () => import('@/pages/Home.vue'),
   },
+  {
+    path: '/single',
+    name: 'Single',
+    component: () => import('@/pages/SinglePage.vue'),
+  },
 ]
 
 let router = createRouter({
